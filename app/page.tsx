@@ -45,7 +45,9 @@ export default function QuizApp() {
         ? "正解！"
         : `残念！ 正解は${currentQuiz.answer}です。`
     );
-    choice === currentQuiz.answer && setCorrectCount(correctCount + 1);
+    if (choice === currentQuiz.answer) {
+      setCorrectCount(correctCount + 1);
+    }
 
     if (currentQuizIndex >= 9) {
       alert(`全${currentQuizIndex + 1}問終了！正解数は${correctCount}問です。`);
