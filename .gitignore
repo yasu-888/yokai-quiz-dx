@@ -1,0 +1,86 @@
+output/
+temp/
+/Music/Spleeter/pretrained_models/
+*.mp4
+*.zip
+*.ts
+*.png
+
+# Pythonバイトコード
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# 仮想環境
+venv/
+.env
+*.env
+
+# その他のPython関連ファイル
+*.log
+*.sqlite3
+*.db
+.DS_Store
+
+# Node.jsの依存関係
+node_modules/
+
+# npmのキャッシュファイル
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# .envファイル
+.env
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+
+# ログファイル
+logs
+*.log
+
+# Next.js特有のファイル
+.next/
+
+# 生成されたビルドファイル
+out/
+dist/
+build/
+
+# Vercelのデプロイ設定
+.vercel/
+
+# TypeScriptの場合の定義ファイル
+*.tsbuildinfo
+
+# Python仮想環境
+venv/
+env/
+ENV/
+.flaskenv
+.env
+
+# SQLiteのデータベースファイル
+*.sqlite3
+*.db
+
+# Flaskのキャッシュとログ
+instance/
+*.log
+
+# OSやIDEの一時ファイル
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Gitが生成する一時ファイル
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+
