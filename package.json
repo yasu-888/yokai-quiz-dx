@@ -5,7 +5,7 @@
   "homepage": "https://yasu-888.github.io/yokai-quiz-dx",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "env NODE_ENV='production' next build",
     "start": "next start",
     "lint": "next lint"
   },
