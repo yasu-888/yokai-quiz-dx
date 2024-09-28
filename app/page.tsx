@@ -18,7 +18,9 @@ export default function QuizApp() {
   useEffect(() => {
     async function fetchData() {
       // const res = await fetch("/api/data");
-      const res = await fetch("/db.json"); // ちょっと時間かかるけどいける！
+      const basePath =
+        process.env.NODE_ENV === "production" ? "/yokai-quiz-dx" : "";
+      const res = await fetch(`${basePath}/db.json`); // ちょっと時間かかるけどいける！
 
       if (!res.ok) {
         throw new Error("Failed to fetch data");
@@ -35,7 +37,9 @@ export default function QuizApp() {
   }, []);
 
   if (loading) {
-    return <div>Loading...</div>; // ローディング中の表示
+    return (
+      <div className="mt-32 text-center text-lg font-bold">Loading...</div>
+    ); // ローディング中の表示
   }
 
   const currentQuiz = quizzes[currentQuizIndex];
