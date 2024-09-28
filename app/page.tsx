@@ -18,7 +18,7 @@ export default function QuizApp() {
   useEffect(() => {
     async function fetchData() {
       // const res = await fetch("/api/data");
-      const res = await fetch("/db.json"); // ちょっと時間かかるけどいける！
+      const res = await fetch("/yokai-quiz-dx/db.json"); // ちょっと時間かかるけどいける！
 
       if (!res.ok) {
         throw new Error("Failed to fetch data");
