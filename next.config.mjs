@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
-  basePath: "/yokai-quiz-dx",
+  basePath: process.env.NODE_ENV === "production" ? "/yokai-quiz-dx" : "",
 };
 
 export default nextConfig;
