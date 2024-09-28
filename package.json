@@ -2,6 +2,7 @@
   "name": "yokai-quiz-dx",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://yasu-888.github.io/yokai-quiz-dx",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
