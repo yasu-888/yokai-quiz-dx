@@ -3,7 +3,6 @@ temp/
 /Music/Spleeter/pretrained_models/
 *.mp4
 *.zip
-*.ts
 *.png
 
 # Pythonバイトコード
