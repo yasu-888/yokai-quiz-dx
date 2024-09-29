@@ -79,8 +79,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./
-          # path: ./public  ← 削除
+          path: ./public
   # Deployment job
   deploy:
     environment:
