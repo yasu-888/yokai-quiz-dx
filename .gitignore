@@ -45,7 +45,6 @@ logs
 .next/
 
 # 生成されたビルドファイル
-out/
 dist/
 build/
 
